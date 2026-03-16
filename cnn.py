@@ -5,7 +5,7 @@ import torch.optim as  optim
 class my_cnn_model(nn.Module):
     def __init__(self):
         super(my_cnn_model, self).__init__()
-        self.c1 = nn.Conv2d(3, 32, 3)
+        self.c1 =  nn.Conv2d(3, 32, 3)
         self.c2 = nn.Conv2d(32, 64, 3)
         self.f1 = nn.Linear(64 * 24 * 24, 10) 
 
