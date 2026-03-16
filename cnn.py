@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
+import torch.optim as  optim
 
 class my_cnn_model(nn.Module):
     def __init__(self):
